@@ -38,13 +38,13 @@ body {
 .main__section {
   margin:0;
   padding: 0px;
-  list-style:none;
+  list-style: none;
 }
 /* li, h3 {
   list-style:none;
 } */
 .input,.main__btn{
-  outline:none;
+  outline: none;
 }
 .main__btn {
   background: none;
@@ -136,14 +136,14 @@ body {
 
 /* Edit Task */
 .task__input {
-  display:none
+  display: none
 }
 
 .task_edit .task__input {
-  display:inline-block;
+  display: inline-block;
   width:224px
 } 
 
 .task_edit .task__name {
-  display:none;
+  display: none;
 } 
