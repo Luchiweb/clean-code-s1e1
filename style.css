@@ -119,17 +119,17 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.task__delete-button img {
+button.task__delete-btn img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.task__delete-button img:hover {
+button.task__delete-btn img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed__section label {
+ul#completed label {
   text-decoration: line-through
   color: #888;
 }
