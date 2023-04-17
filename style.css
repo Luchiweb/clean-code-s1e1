@@ -27,7 +27,8 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task__name, .input {
+.task__name, 
+.input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -41,9 +42,10 @@ body {
   list-style: none;
 }
 /* li, h3 {
-  list-style:none;
+  list-style: none;
 } */
-.input,.main__btn{
+.input,
+.main__btn {
   outline: none;
 }
 .main__btn {
@@ -59,7 +61,7 @@ body {
   color: #3a3A3a;
 }
 /* Heading */
-.section-title{
+.section-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -110,7 +112,7 @@ body {
 .main__checkbox {
   margin: 0 10px;
 }
-.task__name{
+.task__name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
